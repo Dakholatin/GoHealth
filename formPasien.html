@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form Pasien</title>
+	<link rel="stylesheet" type="text/css" href="formPasien.css">
+</head>
+
+<body>
+	<div>
+	<img src="LogoMitraMedika.png" class="gambar"> 
+	<button class="logout"><a href="createaccount.html"><img src="logout2.png"></a></button>
+	<h2>GO HEALTH</h2>
+	<h1>MITRA MEDIKA</h1>
+	</div>
+		<div class="menu">
+			<ul>
+				<li><div><a href="index.html">Home</a></div></li>
+				<li ><div><a href="formPasien.html">Registrasi</a></div></li>
+				<li><div><a href="rawatInap.html">Rawat Inap</a></div></li>
+				<li><div><a href="jadwalDokter.html">Jadwal Dokter</a></div></li>
+			</ul>
+		</div>
+		
+
+		<div class="judul">
+			<h2 class="pendaftaran">FORM PENDAFTARAN PASIEN</h2>
+		</div>
+		<form action="formPasien.html">
+		<div class="kiri">
+			<div class="isi">
+				<div class="isi-kiri2">
+					No. Registrasi:
+				</div>
+				<div class="isi-kanan">
+					<input type="text" placeholder="(Auto)">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					No. KK:
+				</div>
+				<div class="isi-kanan">
+					<input type="number" class="numberr">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Nomor Identitas:
+				</div>
+				<div class="isi-kanan">
+					<select class="select3" name="Identitas" id="Identitas">
+						<option value="">Pilih Identitas..</option>
+						<option value="text">KTP</option>
+						<option value="text">SIM</option>
+						<option value="text">NIK</option>
+					</select>
+					<input type="number" name="number" class="numberrr" placeholder="Nomor Identitas" />
+
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Nama Pasien:
+				</div>
+				<div class="isi-kanan">
+					<select class="select3">
+						<option value="title">Tuan</option>
+						<option value="title">Nyonya</option>
+						<option value="title">Nona</option>
+					</select>
+					<input type="text3" name="text" placeholder="Nama Pasien" />
+
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Jenis Kelamin:
+				</div>
+				<div class="isi-kanan">
+					<input type="radio" name="jenis kelamin" value="Laki-Laki" />Laki-Laki
+					<input type="radio" name="jenis kelamin" value="Perempuan" />Perempuan
+
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Golongan Darah:
+				</div>
+				<div class="isi-kanan">
+					<select class="select2">
+						<option value="">-</option>
+						<option name="Golongan Darah" value="A">A</option>
+						<option name="Golongan Darah" value="B">B</option>
+						<option name="Golongan Darah" value="AB">AB</option>
+						<option name="Golongan Darah" value="O">O</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Tempat Lahir:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Tgl Lahir/Umur:
+				</div>
+				<div class="isi-kanan">
+					<input type="date" name="date" />
+					<input class="number" type="number" name="number" />
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Jenis Pasien:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="P.umum">Pasien Umum</option>
+						<option value="p.rujukan">Pasien Rujukan</option>
+						<option value="p.BPJS">Pasien BPJS</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					No.Telp:
+				</div>
+				<div class="isi-kanan">
+					<input type="number" class="numberr">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					No. HP:
+				</div>
+				<div class="isi-kanan">
+					<input type="number" class="numberr">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Alamat:
+				</div>
+
+				<div class="isi-kanan">
+					<textarea></textarea>
+				</div>
+				<br><br>
+				<br><br>
+
+			</div>
+		</div>
+
+		<div class="tengah">
+			<div class="isi">
+				<div class="isi-kiri">
+					Email:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				
+				<br><br>
+
+				<div class="isi-kiri">
+					Agama:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">Islam</option>
+						<option value="text">Kristen Protestan</option>
+						<option value="text">Kristen Katolik</option>
+						<option value="text">Hindu</option>
+						<option value="text">Budha</option>
+						<option value="text">kong hu chu</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Suku:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Pendidikan:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">SD</option>
+						<option value="text">SMP</option>
+						<option value="text">SMA/SMA</option>
+						<option value="text">S1</option>
+						<option value="text">S2</option>
+						<option value="text">S3</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Pekerjaan:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">PNS</option>
+						<option value="text">Wirausaha</option>
+						<option value="text">Dosen</option>
+						<option value="text">Guru</option>
+						<option value="text">Lain-lain</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Status Nikah:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">Belum Menikah</option>
+						<option value="text">Sudah Menikah</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Valid:
+				</div>
+				<div class="isi-kanan">
+					<input type="radio" name="valid" value="Valid">Valid
+					<input type="radio" name="valid" value="Belum Valid">Belum Valid
+
+				</div>
+				<br><br>
+			</div>
+		</div>
+
+		<div class="kanan">
+			<div class="kotak">
+				<div class="catatan1">
+					Catatan
+				</div>
+				<div class="isi">
+					<div class="isi-kiri">
+						Catatan:
+					</div>
+					<div class="isi-kanan">
+						<textarea></textarea>
+					</div>
+					<br><br><br>
+				</div>
+			</div>
+
+			<div class="kotak">
+				<div class="catatan2">
+					Wali Pasien
+				</div>
+				<div class="isi">
+					<div class="isi-kiri">
+						Nama Wali:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Tgl Lahir/Umur:
+					</div>
+					<div class="isi-kanan">
+						<input type="date" name="date" />
+						<input class="number" type="number" name="number" />
+					</div>
+					<br><br>
+					<div class="isi-kiri">
+						Jenis Kelamin:
+					</div>
+					<div class="isi-kanan">
+						<input type="radio" name="jenis kelamin" value="Laki-Laki" />Laki-Laki
+						<input type="radio" name="jenis kelamin" value="Perempuan" />Perempuan
+
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Alamat:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Hubungan:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+
+				</div>
+				<br><br>
+
+			</div>
+
+			<div class="kotak">
+				<div class="catatan3">
+					Keluarga Pasien
+				</div>
+				<div class="isi">
+					<div class="isi-kiri">
+						Nama:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Hubungan:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+
+				</div>
+				<br><br>
+
+			</div>
+		</div>
+
+		</div>
+		<div style="width: 100%; float:right"><img src="" alt=""></div>
+		<div class="spasi"><img src="" alt=""></div>
+		<button class="button" id="batal" onclick="validasi()"><img src="batal.png" alt="gagal tampil"> Batal</button>
+		<button class="button" id="save" onclick="validasi2()"><img src="save.png" alt="gagal tampil" type="submit" value="submit">Simpan</button>
+		<br><br><br><br>
+		</form>
+
+<script type="text/javascript">
+	function validasi() {
+		confirm("apakah anda yakin akan membatalkannya?");
+	}
+</script>
+<script type="text/javascript">
+	function validasi2() {
+		confirm("apakah anda yakin akan menyimpan?");
+	}
+</script>
+
+</body>
+
+</html>

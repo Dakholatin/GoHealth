@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rawat Inap</title>
+	<link rel="stylesheet" type="text/css" href="rawatInap.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<img src="LogoMitraMedika.png" class="gambar"> 
+	<button class="logout"><a href="createaccount.html"><img src="logout2.png"></a></button>
+	<h2>GO HEALTH</h2> 
+	<h1>MITRA MEDIKA</h1>
+
+		<div class="menu">
+			<center><ul>
+				<li><div><a href="index.html">Home</a></div></li>
+				<li><div><a href="formPasien.html">Registrasi</a></div></li>
+				<li><div><a href="jadwalDokter.html">Jadwal Dokter</a></div></li>
+				<li><div><a href="rawatInap.html">Rawat Inap</a></div></li>
+				</center>
+		</div>
+		<header><center><h2>Pilihan Kamar Rawat Inap</h2></center></header>
+
+		<div class="badan">			
+			<div class="kiri">
+				<center>
+					<div class="ruang">Ruang PSH<br>Tersedia: 30
+					<center><button><div class="button" id="pilih-ruang"><center><b>Pilih</b></center></div></button></center></div>
+				</center>
+
+				<br>
+
+				<center>
+					<div class="ruang">Kelas Utama<br>Tersedia: 20
+					<center><button><div class="button"><center><b>Pilih</b></center></div></button></center></div>
+				</center>
+			</div>
+
+			<div class="tengah">
+				<center>
+					<div class="ruang">Ruang Bayi<br>Tersedia: 209
+					<center><button><div class="button"><center><b>Pilih</b></center></div></button></center></div>
+				</center>
+
+				<br>
+
+				<center>
+					<div class="ruang">Kelas I<br>Tersedia: 152
+					<center><button><div class="button" ><center><b>Pilih</b></center></div></button></center></div>
+				</center>
+			</div>
+
+		<div class="kanan1">
+			<center>
+				<div class="ruang">Ruang PSA<br>Tersedia: 10
+				<center><button><div class="button"><center><b>Pilih</b></center></div></button></center></div>
+			</center>
+
+			<br>
+
+			<center>
+				<div class="ruang">Kelas III<br>Tersedia: 90
+				<center><button><div class="button" ><center><b>Pilih</b></center></div></button></center></div>
+			</center>
+		</div>
+
+		<div class="kanan">
+			<center>
+				<div class="ruang">ICU<br>Tersedia: 30
+				<center><button><div class="button" ><center><b>Pilih</b></center></div></button></center></div>
+			</center>
+
+			<br>
+
+			<center>
+				<div class="ruang">Kelas II<br>Tersedia: 117
+				<center><button><div class="button" ><center><b>Pilih</b></center></div></button></center></div>
+			</center>
+		</div>
+	</div>
+
+	<div id="bg">
+	<div id="modal-kotak">
+		<div id="atas">
+			Anda Telah Memilih Ruang PSH
+			<br><button id="tombol-tutup">Close</button>
+		</div>
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#pilih-ruang').click(function(){    
+				$('#modal-kotak, #bg').fadeIn("slow");
+			});
+			$('#tombol-tutup').click(function(){
+				$('#modal-kotak, #bg').fadeOut("slow");
+			});
+		});
+	</script>
+
+</body>
+</html>

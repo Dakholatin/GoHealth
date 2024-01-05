@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Konsultasi</title>
+	<link rel="stylesheet" type="text/css" href="Konsultasi.css">
+	<script type="text/javascript" src="hhttps://code.jquery.com/jquery-3.4.1.min.js"></script>
+<body>
+
+	<img src="LogoMitraMedika.png" class="gambar"> 
+	<button class="logout"><a href="createaccount.html"><img src="logout2.png"></a></button>
+	<h2>GO HEALTH</h2> 
+	<h1>MITRA MEDIKA</h1>
+	
+		<div class="menu">
+			<center><ul>
+				<li><div><a href="index.html">Home</a></div></li>
+				<li><div><a href="formPasien.html">Registrasi</a></div></li>
+				<li><div><a href="jadwalDokter.html">Jadwal Dokter</a></div></li>
+				<li><div><a href="rawatInap.html">Rawat Inap</a></div></li>
+			</ul></center>
+		</div>
+
+	<center><h2 class="Catatan">Catatan Konsultasi</h2></center>
+	<center><textarea>Keluhan:</textarea></center>
+	<div><button id="Kirim">Kirim</button></div>
+
+
+	<div id="bg">
+	<div id="modal-kotak">
+		<div id="atas">
+			keluhan Anda Sudah Terkirim!
+			<button id="tombol-tutup">Close</button>
+		</div>
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#Kirim').click(function(){    
+				$('#modal-kotak, #bg').fadeIn("slow");
+			});
+			$('#tombol-tutup').click(function(){
+				$('#modal-kotak, #bg').fadeOut("slow");
+			});
+		});
+	</script>
+</body>
+</html>

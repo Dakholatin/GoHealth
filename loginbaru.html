@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="loginbaru.css">
+</head>
+
+<body>
+
+  <div class="menu">
+  <img src="LogoMitraMedika.png" class="gambar">
+  <h2>GO HEALTH</h2> 
+  <h1>MITRA MEDIKA</h1>
+  </div>
+
+  <img class="hh" src="uu.png">
+
+  <div class="form">
+
+    <h2 class="form-user"><b>LOGIN</b></h2>
+    <FORM class="form-isi" action="GO-HEALTH 1/index.html">
+      <P>
+        Username
+        <input class="text" type="text" required />
+        <br>
+
+        Password
+        <input class="text" type="Password" required />
+      </P>
+      <p>
+        <a href="Home.html"><input class="submit" type="submit" name="submit" value="Login"/></a>
+        <center><a href="CreateAccount.html" target="_blank">Create an Account</a></center>
+      </p>
+        
+    </FORM>
+      <div class="container" style="background-color:#f1f1f1">
+        <button class="cancelbtn" type="button" onclick="konfirmasi()"><a href="loginbaru.html"> Cancel</button>
+        <a href="#" class="forgot">Forgot Password?</a>
+      </div>
+      </div>
+
+      <p id="hasil"></p>
+      <script type="text/javascript">
+        function konfirmasi(){
+          var konfirmasi=confirm('apakah anda yakin?');
+          var text= "";
+
+          if (konfirmasi== true){
+            text="silahkan lanjutkan";
+          }else{
+            text="anda akan tetap di halaman ini";
+          }
+
+          document.getElementByid('hasil').innerHTML()=text;
+        }
+      </script>
+</body>
+
+</html>

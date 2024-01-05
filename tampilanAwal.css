@@ -1,0 +1,49 @@
+body{
+	background-attachment: fixed;
+	background-size: 100%;
+	background-color: #000080;
+}
+.login{
+	float: right;
+	border-radius: 10px;
+	padding: 15px;
+	font-family: rockwell;
+	font-size: 16px;
+	width: 100px;
+	cursor: pointer;
+}
+
+p{
+	padding: 20px;
+	margin-left: 80px;
+	margin-top: 0px;
+	font-family: DFPOP1-W9;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 40%;
+	text-align: center;
+	background-color: rgb(175 238 238);
+	color: black;
+}
+ 
+img{
+	width: 450px;
+	height: 300px;
+	margin-left: 200px;
+	margin-top: 80px;
+	border-radius: 15px;
+}
+
+button a{
+	margin: 20px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+button:hover{
+	background-color: rgb(119 136 153);
+	text-decoration: underline;
+	color: white;
+}
